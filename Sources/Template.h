@@ -2,8 +2,8 @@
 //  Template.h
 //  Template
 //
-//  Created by me on 26/05/2017.
-//
+//  Created by John Doe on 02/07/2017.
+//  Copyright © 2017 John Do. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

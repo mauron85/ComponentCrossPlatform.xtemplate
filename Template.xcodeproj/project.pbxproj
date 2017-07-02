@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4520A81F08E159002F0E38 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4520A71F08E159002F0E38 /* MyClass.swift */; };
+		8C4520A91F08E159002F0E38 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4520A71F08E159002F0E38 /* MyClass.swift */; };
+		8C4520AA1F08E159002F0E38 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4520A71F08E159002F0E38 /* MyClass.swift */; };
+		8C4520AB1F08E159002F0E38 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4520A71F08E159002F0E38 /* MyClass.swift */; };
 		8C5A76761ED95A50004F87A2 /* Template.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5A76751ED95A50004F87A2 /* Template.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C5A76771ED95B66004F87A2 /* Template.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5A76751ED95A50004F87A2 /* Template.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C5A76781ED95B66004F87A2 /* Template.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5A76751ED95A50004F87A2 /* Template.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C5A76791ED95B67004F87A2 /* Template.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5A76751ED95A50004F87A2 /* Template.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C5A767B1ED95EE3004F87A2 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A767A1ED95EE3004F87A2 /* MyClass.swift */; };
-		8C5A767C1ED95EE3004F87A2 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A767A1ED95EE3004F87A2 /* MyClass.swift */; };
-		8C5A767D1ED95EE3004F87A2 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A767A1ED95EE3004F87A2 /* MyClass.swift */; };
-		8C5A767E1ED95EE3004F87A2 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A767A1ED95EE3004F87A2 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		8C0968AA1ED8D80300CC19F2 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		8C0968AB1ED8D80300CC19F2 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		8C0968AC1ED8D80300CC19F2 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		8C4520A71F08E159002F0E38 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 		8C5A76751ED95A50004F87A2 /* Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
-		8C5A767A1ED95EE3004F87A2 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 		8C5A76811ED963E1004F87A2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,12 +86,12 @@
 		8C0968A81ED8D24F00CC19F2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8C5A767A1ED95EE3004F87A2 /* MyClass.swift */,
-				8C5A76751ED95A50004F87A2 /* Template.h */,
 				8C0968A91ED8D80300CC19F2 /* Info-iOS.plist */,
 				8C0968AA1ED8D80300CC19F2 /* Info-macOS.plist */,
 				8C0968AB1ED8D80300CC19F2 /* Info-tvOS.plist */,
 				8C0968AC1ED8D80300CC19F2 /* Info-watchOS.plist */,
+				8C5A76751ED95A50004F87A2 /* Template.h */,
+				8C4520A71F08E159002F0E38 /* MyClass.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -216,22 +216,22 @@
 				TargetAttributes = {
 					8C0968771ED8C64500CC19F2 = {
 						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					8C0968851ED8C99400CC19F2 = {
 						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					8C0968921ED8CBF300CC19F2 = {
 						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					8C09689F1ED8CE5500CC19F2 = {
 						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -292,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C5A767B1ED95EE3004F87A2 /* MyClass.swift in Sources */,
+				8C4520A81F08E159002F0E38 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C5A767C1ED95EE3004F87A2 /* MyClass.swift in Sources */,
+				8C4520A91F08E159002F0E38 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C5A767D1ED95EE3004F87A2 /* MyClass.swift in Sources */,
+				8C4520AA1F08E159002F0E38 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C5A767E1ED95EE3004F87A2 /* MyClass.swift in Sources */,
+				8C4520AB1F08E159002F0E38 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +390,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tofplay.$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.Template;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -448,7 +448,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tofplay.$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.Template;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -512,7 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tofplay.$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.Template;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -570,7 +570,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tofplay.$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.Template;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -634,7 +634,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tofplay.$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.Template;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -691,7 +691,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tofplay.$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.Template;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -758,7 +758,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tofplay.$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.Template;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -816,7 +816,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tofplay.$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.Template;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
