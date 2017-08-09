@@ -4,7 +4,7 @@
 //
 //  Created by John Doe on 02/07/2017.
 //  Base on Tof Templates (https://goo.gl/GdyFiw)
-//  Copyright © 2017 John Do. All rights reserved.
+//  Copyright © 2017 John Doe. All rights reserved.
 //
 
 import Foundation

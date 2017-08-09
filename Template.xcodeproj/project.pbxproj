@@ -29,6 +29,7 @@
 		8C4520A71F08E159002F0E38 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 		8C5A76751ED95A50004F87A2 /* Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
 		8C5A76811ED963E1004F87A2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		8C800AF41F3B56FF00880A95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +87,13 @@
 		8C0968A81ED8D24F00CC19F2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8C4520A71F08E159002F0E38 /* MyClass.swift */,
 				8C0968A91ED8D80300CC19F2 /* Info-iOS.plist */,
 				8C0968AA1ED8D80300CC19F2 /* Info-macOS.plist */,
 				8C0968AB1ED8D80300CC19F2 /* Info-tvOS.plist */,
 				8C0968AC1ED8D80300CC19F2 /* Info-watchOS.plist */,
 				8C5A76751ED95A50004F87A2 /* Template.h */,
-				8C4520A71F08E159002F0E38 /* MyClass.swift */,
+				8C800AF41F3B56FF00880A95 /* README.md */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
