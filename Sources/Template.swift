@@ -1,5 +1,5 @@
 //
-//  MyClass.swift
+//  Template.swift
 //  Template
 //
 //  Created by John Doe on 02/07/2017.
@@ -12,7 +12,7 @@ import Foundation
 // MARK: -
 // MARK: MyClass
 // MARK: -
-public class MyClass {
+public class Template {
   // MARK: -
   // MARK: Public access
   // MARK: -
