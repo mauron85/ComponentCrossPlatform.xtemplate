@@ -17,6 +17,15 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+# SwiftPM
+.build/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+Carthage/
+Cartfile.resolved
+ 
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -25,11 +34,5 @@ DerivedData
 #
 Pods/
 Podfile.lock
-
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-Carthage/
-Cartfile.resolved
-
+  
 *.DS_Store
