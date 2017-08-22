@@ -24,27 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8C7306F01F41C9690006A8E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8C09686D1ED8C3A200CC19F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C7306DD1F41C9550006A8E7;
-			remoteInfo = "AppTest iOS";
-		};
-		8C7307051F41CA0B0006A8E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8C09686D1ED8C3A200CC19F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C7306F51F41C9E60006A8E7;
-			remoteInfo = "AppTest tvOS";
-		};
-		8C73071B1F41CA6A0006A8E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8C09686D1ED8C3A200CC19F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C73070A1F41CA610006A8E7;
-			remoteInfo = "AppTest macOS";
-		};
 		8CF5D1E61F41BD5C004F9B59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8C09686D1ED8C3A200CC19F2 /* Project object */;
@@ -80,9 +59,6 @@
 		8C4520A71F08E159002F0E38 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
 		8C5A76751ED95A50004F87A2 /* Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
 		8C5A76811ED963E1004F87A2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		8C7306DE1F41C9550006A8E7 /* AppTest iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppTest iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C7306F61F41C9E60006A8E7 /* AppTest tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppTest tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C73070B1F41CA610006A8E7 /* AppTest macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppTest macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C800AF41F3B56FF00880A95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		8CF5D1E01F41BD5C004F9B59 /* UnitTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF5D1E21F41BD5C004F9B59 /* UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTests.swift; sourceTree = "<group>"; };
@@ -116,27 +92,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C09689C1ED8CE5500CC19F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C7306DB1F41C9550006A8E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C7306F31F41C9E60006A8E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C7307081F41CA610006A8E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,9 +145,6 @@
 				8CF5D1E01F41BD5C004F9B59 /* UnitTests iOS.xctest */,
 				8CF5D1EF1F41BD6F004F9B59 /* UnitTests tvOS.xctest */,
 				8CF5D1FE1F41BD80004F9B59 /* UnitTests macOS.xctest */,
-				8C7306DE1F41C9550006A8E7 /* AppTest iOS.app */,
-				8C7306F61F41C9E60006A8E7 /* AppTest tvOS.app */,
-				8C73070B1F41CA610006A8E7 /* AppTest macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -334,57 +286,6 @@
 			productReference = 8C0968A01ED8CE5500CC19F2 /* Template.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8C7306DD1F41C9550006A8E7 /* AppTest iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8C7306ED1F41C9550006A8E7 /* Build configuration list for PBXNativeTarget "AppTest iOS" */;
-			buildPhases = (
-				8C7306DA1F41C9550006A8E7 /* Sources */,
-				8C7306DB1F41C9550006A8E7 /* Frameworks */,
-				8C7306DC1F41C9550006A8E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AppTest iOS";
-			productName = "AppTest iOS";
-			productReference = 8C7306DE1F41C9550006A8E7 /* AppTest iOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8C7306F51F41C9E60006A8E7 /* AppTest tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8C7307021F41C9E60006A8E7 /* Build configuration list for PBXNativeTarget "AppTest tvOS" */;
-			buildPhases = (
-				8C7306F21F41C9E60006A8E7 /* Sources */,
-				8C7306F31F41C9E60006A8E7 /* Frameworks */,
-				8C7306F41F41C9E60006A8E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AppTest tvOS";
-			productName = "AppTest tvOS";
-			productReference = 8C7306F61F41C9E60006A8E7 /* AppTest tvOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8C73070A1F41CA610006A8E7 /* AppTest macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8C7307181F41CA610006A8E7 /* Build configuration list for PBXNativeTarget "AppTest macOS" */;
-			buildPhases = (
-				8C7307071F41CA610006A8E7 /* Sources */,
-				8C7307081F41CA610006A8E7 /* Frameworks */,
-				8C7307091F41CA610006A8E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AppTest macOS";
-			productName = "AppTest macOS";
-			productReference = 8C73070B1F41CA610006A8E7 /* AppTest macOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 		8CF5D1DF1F41BD5C004F9B59 /* UnitTests iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CF5D1E81F41BD5C004F9B59 /* Build configuration list for PBXNativeTarget "UnitTests iOS" */;
@@ -397,7 +298,6 @@
 			);
 			dependencies = (
 				8CF5D1E71F41BD5C004F9B59 /* PBXTargetDependency */,
-				8C7306F11F41C9690006A8E7 /* PBXTargetDependency */,
 			);
 			name = "UnitTests iOS";
 			productName = "UnitTests iOS";
@@ -416,7 +316,6 @@
 			);
 			dependencies = (
 				8CF5D1F61F41BD6F004F9B59 /* PBXTargetDependency */,
-				8C7307061F41CA0B0006A8E7 /* PBXTargetDependency */,
 			);
 			name = "UnitTests tvOS";
 			productName = "UnitTests watchOS";
@@ -435,7 +334,6 @@
 			);
 			dependencies = (
 				8CF5D2051F41BD80004F9B59 /* PBXTargetDependency */,
-				8C73071C1F41CA6A0006A8E7 /* PBXTargetDependency */,
 			);
 			name = "UnitTests macOS";
 			productName = "UnitTests macOS";
@@ -471,26 +369,15 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
-					8C7306DD1F41C9550006A8E7 = {
-						CreatedOnToolsVersion = 9.0;
-					};
-					8C7306F51F41C9E60006A8E7 = {
-						CreatedOnToolsVersion = 9.0;
-					};
-					8C73070A1F41CA610006A8E7 = {
-						CreatedOnToolsVersion = 9.0;
-					};
 					8CF5D1DF1F41BD5C004F9B59 = {
 						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 8C7306DD1F41C9550006A8E7;
+						ProvisioningStyle = Automatic;
 					};
 					8CF5D1EE1F41BD6F004F9B59 = {
 						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 8C7306F51F41C9E60006A8E7;
 					};
 					8CF5D1FD1F41BD80004F9B59 = {
 						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 8C73070A1F41CA610006A8E7;
 					};
 				};
 			};
@@ -514,9 +401,6 @@
 				8CF5D1DF1F41BD5C004F9B59 /* UnitTests iOS */,
 				8CF5D1EE1F41BD6F004F9B59 /* UnitTests tvOS */,
 				8CF5D1FD1F41BD80004F9B59 /* UnitTests macOS */,
-				8C7306DD1F41C9550006A8E7 /* AppTest iOS */,
-				8C7306F51F41C9E60006A8E7 /* AppTest tvOS */,
-				8C73070A1F41CA610006A8E7 /* AppTest macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -544,27 +428,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C09689E1ED8CE5500CC19F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C7306DC1F41C9550006A8E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C7306F41F41C9E60006A8E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C7307091F41CA610006A8E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -627,27 +490,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C7306DA1F41C9550006A8E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C7306F21F41C9E60006A8E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C7307071F41CA610006A8E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8CF5D1DC1F41BD5C004F9B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -675,21 +517,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8C7306F11F41C9690006A8E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8C7306DD1F41C9550006A8E7 /* AppTest iOS */;
-			targetProxy = 8C7306F01F41C9690006A8E7 /* PBXContainerItemProxy */;
-		};
-		8C7307061F41CA0B0006A8E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8C7306F51F41C9E60006A8E7 /* AppTest tvOS */;
-			targetProxy = 8C7307051F41CA0B0006A8E7 /* PBXContainerItemProxy */;
-		};
-		8C73071C1F41CA6A0006A8E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8C73070A1F41CA610006A8E7 /* AppTest macOS */;
-			targetProxy = 8C73071B1F41CA6A0006A8E7 /* PBXContainerItemProxy */;
-		};
 		8CF5D1E71F41BD5C004F9B59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8C0968771ED8C64500CC19F2 /* Template iOS */;
@@ -1259,238 +1086,6 @@
 			};
 			name = Release;
 		};
-		8C7306EE1F41C9550006A8E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "AppTest iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndoe.AppTest-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8C7306EF1F41C9550006A8E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "AppTest iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndoe.AppTest-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8C7307031F41C9E60006A8E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "AppTest tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndoe.AppTest-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Debug;
-		};
-		8C7307041F41C9E60006A8E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "AppTest tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndoe.AppTest-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8C7307191F41CA610006A8E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "AppTest macOS/AppTest_macOS.entitlements";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "AppTest macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndoe.AppTest-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		8C73071A1F41CA610006A8E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "AppTest macOS/AppTest_macOS.entitlements";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "AppTest macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndoe.AppTest-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 		8CF5D1E91F41BD5C004F9B59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1506,8 +1101,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1523,12 +1121,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppTest iOS.app/AppTest iOS";
 			};
 			name = Debug;
 		};
@@ -1547,8 +1145,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1559,11 +1160,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.johndoe.UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppTest iOS.app/AppTest iOS";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1603,7 +1204,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppTest tvOS.app/AppTest tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
@@ -1637,7 +1237,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppTest tvOS.app/AppTest tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1680,7 +1279,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppTest macOS.app/Contents/MacOS/AppTest macOS";
 			};
 			name = Debug;
 		};
@@ -1715,7 +1313,6 @@
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppTest macOS.app/Contents/MacOS/AppTest macOS";
 			};
 			name = Release;
 		};
@@ -1763,33 +1360,6 @@
 			buildConfigurations = (
 				8C0968A61ED8CE5500CC19F2 /* Debug */,
 				8C0968A71ED8CE5500CC19F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8C7306ED1F41C9550006A8E7 /* Build configuration list for PBXNativeTarget "AppTest iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C7306EE1F41C9550006A8E7 /* Debug */,
-				8C7306EF1F41C9550006A8E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8C7307021F41C9E60006A8E7 /* Build configuration list for PBXNativeTarget "AppTest tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C7307031F41C9E60006A8E7 /* Debug */,
-				8C7307041F41C9E60006A8E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8C7307181F41CA610006A8E7 /* Build configuration list for PBXNativeTarget "AppTest macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C7307191F41CA610006A8E7 /* Debug */,
-				8C73071A1F41CA610006A8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
