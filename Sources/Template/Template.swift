@@ -3,7 +3,7 @@
 //  Template
 //
 //  Created by John Doe on 02/07/2017.
-//  Base on Tof Templates (https://goo.gl/GdyFiw)
+//  Base on Tof Templates (https://bit.ly/2OWAgmb)
 //  Copyright © 2017 John Doe. All rights reserved.
 //
 
